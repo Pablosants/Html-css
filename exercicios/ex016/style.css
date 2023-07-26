@@ -1,0 +1,24 @@
+<style>
+* {
+    height: 100%;
+}
+main{
+    background-color:white;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow:5px 5px 15px #FF4000;
+}
+body{
+    background-image: linear-gradient(45deg,#FF4000,#FFC100,#9e005ac2,#75485E);
+    background-attachment: fixed;
+    text-align: justify; 
+}
+h1{
+    color: rgba(4, 4, 94, 0.589);
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.705);
+}
+h2{
+    color: rgb(5, 74, 153);
+}
+</style>

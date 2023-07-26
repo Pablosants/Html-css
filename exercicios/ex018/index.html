@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(243, 236, 168);
+            padding: 10px 20px 10px ;
+
+        }
+        article{
+            background-color: rgb(221, 206, 185);
+            margin: 11px;
+            padding: 11px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 3px black;
+            
+        }
+        aside{
+            background-color: rgb(143, 137, 120);
+            padding: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            text-align: center;
+        }
+        article > p {
+            background-color: rgb(180, 183, 194);
+            margin: 0px;
+         }
+        footer > p {
+           margin: 0px;
+        }
+        nav{
+            background-color: rgb(250, 180, 90);
+            padding: 2px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 50px;
+           
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(172, 42, 3);
+           
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Primeiro Paragrafo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolorem? Culpa quam cumque minus autem, est porro odio! Obcaecati explicabo blanditiis illo perferendis officiis culpa, consequuntur sit ullam alias asperiores?</p>
+        </article>
+        <aside>
+            <h2>Segundo Paragrafo</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quibusdam earum quidem numquam, aliquid tempora fugit cumque cum, perspiciatis, aspernatur voluptatem velit vitae itaque dicta? Quos veniam amet iusto aspernatur!</p>
+        </aside>
+    </main>
+    <footer>
+        <p>By: Pablo</p>
+    </footer>
+</body>
+</html>
