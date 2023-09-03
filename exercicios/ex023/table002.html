@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
-        td{
+        caption{
+            font-weight: bold;
+            padding: 10px;
+            background-color: azure;
+        }
+        td,th{
             border: 1px solid black;
             padding: 10px;
            
         }
         table{
+            width: 500px;
             border-collapse: collapse;
         }
         .num{
@@ -22,11 +28,12 @@
     </style>
 </head>
 <body>
-    <table>
+    <table> 
+        <caption>Tabela Populacional das unidades federativas</caption>
         <thead>
             <tr>
-                <td>Estado</td>
-                <td>População</td>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
