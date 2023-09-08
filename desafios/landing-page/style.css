@@ -21,21 +21,30 @@ header{
     color: rgba(245, 215, 49, 0.884);
 }
 nav{
-    
+    background-color: #FFDAB9;
     border: 1px solid black;
     padding: 20px;
     
 }
+nav>a{
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 20px;
+    
+}
 div{
+    background-image: url(imagen/d651d183-8217-4d49-a157-070fd1f3b3c9.jpg);
+    background-size: cover;
     margin: 0px;
     width: 100vw;
     height: 100vh;
 }
 #dm{
-    width: 500px;
+    padding: 10px 10px ;
+    width: 600px;
     height: 500px;
+    text-align: center;
 }
 body{
-    background-image: url(imagen/d651d183-8217-4d49-a157-070fd1f3b3c9.jpg);
-    background-size: cover;
+    background-color: #f5f5f5;
 }
