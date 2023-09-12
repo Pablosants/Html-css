@@ -16,13 +16,32 @@
         div#conteiner{
             overflow-y: auto;
         }
+        iframe{
+            width: 95vw;
+            height: 300px;
+        }
+        ul>li>a{
+            display: block;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    
     <h1>Aprendendo ultilizar iframe</h1>
+    <ul>
+        <li>
+            <a href="paginas/pag01.html" target="frame" >Primeira pagina</a>
+        </li>    
+        <li>
+             <a href="paginas/pag02.html" target="frame">Segunda pagina</a>
+        </li>
+        
+    </ul>
     <div id="conteiner">
+        
         <p>
-            cursor em <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe>
+           <iframe src="" name="frame"></iframe>
         </p>
     </div>
 </body>
